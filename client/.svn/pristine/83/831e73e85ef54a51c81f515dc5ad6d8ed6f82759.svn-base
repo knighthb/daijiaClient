@@ -1,0 +1,1403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2101B4DA192378E1000D2BE7 /* DJVersionChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2101B4D9192378E1000D2BE7 /* DJVersionChecker.m */; };
+		2101D231193D6A7900C88833 /* RDPBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2101D230193D6A7900C88833 /* RDPBundle.bundle */; };
+		21031789190F88430046C7E7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21031787190F88430046C7E7 /* Localizable.strings */; };
+		2110F99D19518A2700DF56A6 /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2110F99B19518A2700DF56A6 /* libMobClickLibrary.a */; };
+		2146DF02194AF81300DFE25C /* DJStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2146DF01194AF81300DFE25C /* DJStarView.m */; };
+		2146DF05194B06A100DFE25C /* DJOrderDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2146DF04194B06A100DFE25C /* DJOrderDetailVC.m */; };
+		21520ED1190940D8000D6212 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 21520ED0190940D8000D6212 /* ProgressHUD.bundle */; };
+		2160C31E194E93C8004EF4E5 /* DJOrderDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2160C31D194E93C8004EF4E5 /* DJOrderDetailCell.m */; };
+		2176A3A618FFA460003E5A3B /* libWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2176A39F18FFA460003E5A3B /* libWeiboSDK.a */; };
+		2176A3A718FFA461003E5A3B /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2176A3A018FFA460003E5A3B /* WeiboSDK.bundle */; };
+		2176A3A818FFA461003E5A3B /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2176A3A318FFA460003E5A3B /* libWeChatSDK.a */; };
+		2176A3CA18FFED77003E5A3B /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2176A3C818FFED77003E5A3B /* TencentOpenAPI.framework */; };
+		2176A3CB18FFED77003E5A3B /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2176A3C918FFED77003E5A3B /* TencentOpenApi_IOS_Bundle.bundle */; };
+		2176A3CE18FFED93003E5A3B /* DJQQDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2176A3CD18FFED93003E5A3B /* DJQQDelegate.m */; };
+		2176A3D118FFEDFD003E5A3B /* DJRespAnalyser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2176A3D018FFEDFD003E5A3B /* DJRespAnalyser.m */; };
+		2176A3D218FFEE38003E5A3B /* TencentOpenApi_IOS_Bundle.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 2176A3C918FFED77003E5A3B /* TencentOpenApi_IOS_Bundle.bundle */; };
+		2176A3D418FFEE73003E5A3B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2176A3D318FFEE73003E5A3B /* Security.framework */; };
+		2176A3D618FFEE7C003E5A3B /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2176A3D518FFEE7C003E5A3B /* libiconv.dylib */; };
+		2176A3D818FFEE87003E5A3B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2176A3D718FFEE87003E5A3B /* SystemConfiguration.framework */; };
+		2176A3DC18FFEEB1003E5A3B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2176A3DB18FFEEB1003E5A3B /* CoreTelephony.framework */; };
+		2176A3DE18FFEEBE003E5A3B /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2176A3DD18FFEEBE003E5A3B /* libstdc++.dylib */; };
+		2176A3E018FFEEC8003E5A3B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2176A3DF18FFEEC8003E5A3B /* libz.dylib */; };
+		2191F33E1921F256000F746A /* DJShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2191F33D1921F256000F746A /* DJShareManager.m */; };
+		2191F3441921F2BD000F746A /* DJShareSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2191F3431921F2BD000F746A /* DJShareSheetController.m */; };
+		219463641900C70800AE03A0 /* daijia.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 219463631900C70800AE03A0 /* daijia.bundle */; };
+		219463691900D13B00AE03A0 /* DJDriverAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 219463681900D13B00AE03A0 /* DJDriverAnnotationView.m */; };
+		2194636C1900FD5400AE03A0 /* DJAdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2194636B1900FD5400AE03A0 /* DJAdCell.m */; };
+		2195CD5F1904EA480068E2A4 /* DJMoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2195CD5E1904EA480068E2A4 /* DJMoreCell.m */; };
+		21B2B1491952B1B000DCC24C /* DJOrderDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B2B1481952B1B000DCC24C /* DJOrderDetail.m */; };
+		21B2B14D1952B2C500DCC24C /* DJOrderStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B2B14C1952B2C500DCC24C /* DJOrderStatus.m */; };
+		21B2B1501952EF1C00DCC24C /* DJOrderDetailCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B2B14F1952EF1C00DCC24C /* DJOrderDetailCell2.m */; };
+		21B68B6B1958212800F2D75B /* DJOrderCompletedTableProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B68B6A1958212800F2D75B /* DJOrderCompletedTableProvider.m */; };
+		21B68B6F195825F600F2D75B /* DJOrderUncompletedTableProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B68B6E195825F600F2D75B /* DJOrderUncompletedTableProvider.m */; };
+		21B68B7219583B2300F2D75B /* DJOrderProviderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B68B7119583B2300F2D75B /* DJOrderProviderFactory.m */; };
+		21CBB9E918F8F8630033CDAF /* DJShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CBB9E818F8F8630033CDAF /* DJShareViewController.m */; };
+		21CBBA6C18F929FB0033CDAF /* DJTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CBBA6B18F929FB0033CDAF /* DJTabController.m */; };
+		21CBBA7318F930BB0033CDAF /* DJUIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CBBA7218F930BB0033CDAF /* DJUIUtils.m */; };
+		21E4264A19187FC800C1D0A0 /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E4264419187FC800C1D0A0 /* CJSONDeserializer.m */; };
+		21E4264B19187FC800C1D0A0 /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E4264619187FC800C1D0A0 /* CJSONSerializer.m */; };
+		21E4264C19187FC800C1D0A0 /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E4264919187FC800C1D0A0 /* NSDictionary_JSONExtensions.m */; };
+		21E4264E191880F600C1D0A0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21E4264D191880F600C1D0A0 /* CoreLocation.framework */; };
+		21E426501918811800C1D0A0 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 21E4264F1918811800C1D0A0 /* libz.1.2.5.dylib */; };
+		21E42651191885FE00C1D0A0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2176A3D918FFEEA4003E5A3B /* libsqlite3.dylib */; };
+		21E4265219188D9A00C1D0A0 /* libBaiduMobStat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21E4261919187C6E00C1D0A0 /* libBaiduMobStat.a */; };
+		21E426531918A7AD00C1D0A0 /* libBaiduMobStat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21E4261C19187C6E00C1D0A0 /* libBaiduMobStat.a */; };
+		21E686231938248900FE3771 /* DJSegementContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E686221938248900FE3771 /* DJSegementContainer.m */; };
+		21E907FB1916439C00EB19DA /* DJNavigationWraper2.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E907FA1916439C00EB19DA /* DJNavigationWraper2.m */; };
+		21F1018719075AEE00AEDACC /* DJPriceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F1018419075AEE00AEDACC /* DJPriceItem.m */; };
+		21F1018819075AEE00AEDACC /* DJPriceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F1018619075AEE00AEDACC /* DJPriceObject.m */; };
+		21F1018C19075C7100AEDACC /* DJPrevilageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F1018B19075C7100AEDACC /* DJPrevilageCell.m */; };
+		21F1018F19075D4F00AEDACC /* DJevaluationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F1018E19075D4F00AEDACC /* DJevaluationViewController.m */; };
+		21F10195190763AD00AEDACC /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 21F10194190763AD00AEDACC /* Podfile.lock */; };
+		21F101B1190799A900AEDACC /* DJStarSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F1019119075D9A00AEDACC /* DJStarSlider.m */; };
+		21FEA2E7191BB12C00CC00C8 /* DJLoginFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FEA2E2191BB12C00CC00C8 /* DJLoginFactory.m */; };
+		21FEA2E8191BB12C00CC00C8 /* DJLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FEA2E4191BB12C00CC00C8 /* DJLoginViewController.m */; };
+		21FEA2E9191BB12C00CC00C8 /* DJLoginViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FEA2E6191BB12C00CC00C8 /* DJLoginViewController2.m */; };
+		3705855818F7B95A00467076 /* DJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3705853518F7B95A00467076 /* DJViewController.m */; };
+		3705855918F7B95A00467076 /* DJDriveListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3705853818F7B95A00467076 /* DJDriveListViewController.m */; };
+		3705855A18F7B95A00467076 /* DJDriverMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3705853A18F7B95A00467076 /* DJDriverMainViewController.m */; };
+		3705855B18F7B95A00467076 /* DJDriverMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3705853C18F7B95A00467076 /* DJDriverMapViewController.m */; };
+		3705855D18F7B95A00467076 /* DJMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3705854118F7B95A00467076 /* DJMoreViewController.m */; };
+		3705855E18F7B95A00467076 /* DJPrevilageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3705854418F7B95A00467076 /* DJPrevilageViewController.m */; };
+		3705855F18F7B95A00467076 /* DJPriceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3705854718F7B95A00467076 /* DJPriceViewController.m */; };
+		3705856018F7B95A00467076 /* DJProtocolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3705854A18F7B95A00467076 /* DJProtocolViewController.m */; };
+		3705856118F7B95A00467076 /* DJAllOrderListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3705854D18F7B95A00467076 /* DJAllOrderListViewController.m */; };
+		3705856218F7B95A00467076 /* DJCurrentOrderListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3705854F18F7B95A00467076 /* DJCurrentOrderListViewController.m */; };
+		3705856318F7B95A00467076 /* DJOrderListBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3705855118F7B95A00467076 /* DJOrderListBaseViewController.m */; };
+		3705856418F7B95A00467076 /* DJOrderMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3705855318F7B95A00467076 /* DJOrderMainViewController.m */; };
+		3705856E18F7B96F00467076 /* DJCupponsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3705856718F7B96F00467076 /* DJCupponsModel.m */; };
+		3705856F18F7B96F00467076 /* DJDriverAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3705856918F7B96F00467076 /* DJDriverAnnotation.m */; };
+		3705857018F7B96F00467076 /* DJDriverModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3705856B18F7B96F00467076 /* DJDriverModel.m */; };
+		3705857118F7B96F00467076 /* DJOrderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3705856D18F7B96F00467076 /* DJOrderModel.m */; };
+		3705857E18F7B98000467076 /* DJConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 3705857418F7B98000467076 /* DJConst.m */; };
+		3705857F18F7B98000467076 /* DJAFNetworkingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3705857718F7B98000467076 /* DJAFNetworkingUtil.m */; };
+		3705858018F7B98000467076 /* DJCheckUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3705857918F7B98000467076 /* DJCheckUtil.m */; };
+		3705858118F7B98000467076 /* DJEnumUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3705857B18F7B98000467076 /* DJEnumUtil.m */; };
+		3705858218F7B98000467076 /* DJTableViewCellUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3705857D18F7B98000467076 /* DJTableViewCellUtil.m */; };
+		370BDD9F192AFF550099B1B6 /* LocationManagerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 370BDD9E192AFF550099B1B6 /* LocationManagerUtil.m */; };
+		370C6D181905248C007D3276 /* DJLoginUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 370C6D171905248C007D3276 /* DJLoginUtil.m */; };
+		370DF3BF18FE897900C72739 /* DJWeiboDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 370DF3BC18FE897900C72739 /* DJWeiboDelegate.m */; };
+		370DF3C018FE897900C72739 /* DJWeixinDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 370DF3BE18FE897900C72739 /* DJWeixinDelegate.m */; };
+		370DF3C818FE8A2A00C72739 /* DJAdObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 370DF3C318FE8A2A00C72739 /* DJAdObject.m */; };
+		370DF3C918FE8A2A00C72739 /* DJShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 370DF3C518FE8A2A00C72739 /* DJShare.m */; };
+		370DF3CA18FE8A2A00C72739 /* DJShareObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 370DF3C718FE8A2A00C72739 /* DJShareObject.m */; };
+		370DF48118FE8B3E00C72739 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 370DF48018FE8B3E00C72739 /* Info.plist */; };
+		370FDE601909F74A001036D5 /* DJEncryptUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 370FDE5F1909F74A001036D5 /* DJEncryptUtil.m */; };
+		3719C24319233A2500F3090F /* ImageBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3719C24219233A2500F3090F /* ImageBuffer.m */; };
+		371A84B118EE5DED0043DEAA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371A84B018EE5DED0043DEAA /* QuartzCore.framework */; };
+		3728AFDF18FD8A440038FF04 /* DJPhoneUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3728AFDE18FD8A440038FF04 /* DJPhoneUtil.m */; };
+		3735066018FBE13F00851AF0 /* DJControlsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735065F18FBE13F00851AF0 /* DJControlsFactory.m */; };
+		3746A3E718E8FEEA00FC1511 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3746A3E618E8FEEA00FC1511 /* Foundation.framework */; };
+		3746A3E918E8FEEA00FC1511 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3746A3E818E8FEEA00FC1511 /* CoreGraphics.framework */; };
+		3746A3EB18E8FEEA00FC1511 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3746A3EA18E8FEEA00FC1511 /* UIKit.framework */; };
+		3746A3F118E8FEEA00FC1511 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3746A3EF18E8FEEA00FC1511 /* InfoPlist.strings */; };
+		3746A3F318E8FEEA00FC1511 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3746A3F218E8FEEA00FC1511 /* main.m */; };
+		3746A3F718E8FEEA00FC1511 /* DJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3746A3F618E8FEEA00FC1511 /* DJAppDelegate.m */; };
+		3746A3FF18E8FEEA00FC1511 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3746A3FE18E8FEEA00FC1511 /* Images.xcassets */; };
+		3746A40618E8FEEA00FC1511 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3746A40518E8FEEA00FC1511 /* XCTest.framework */; };
+		3746A40718E8FEEA00FC1511 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3746A3E618E8FEEA00FC1511 /* Foundation.framework */; };
+		3746A40818E8FEEA00FC1511 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3746A3EA18E8FEEA00FC1511 /* UIKit.framework */; };
+		376F8DA8190E2CA000C4911E /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 376F8DA0190E2CA000C4911E /* Icon-60@2x.png */; };
+		376F8DA9190E2CA000C4911E /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 376F8DA1190E2CA000C4911E /* Icon-Small.png */; };
+		376F8DAA190E2CA000C4911E /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 376F8DA2190E2CA000C4911E /* Icon-Small@2x.png */; };
+		376F8DAB190E2CA000C4911E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 376F8DA3190E2CA000C4911E /* Icon.png */; };
+		376F8DAC190E2CA000C4911E /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 376F8DA4190E2CA000C4911E /* Icon@2x.png */; };
+		376F8DAE190E2F6800C4911E /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 376F8DAD190E2F6800C4911E /* Images-2.xcassets */; };
+		376F8DB8190E366A00C4911E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 376F8DB5190E366A00C4911E /* Default-568h@2x.png */; };
+		376F8DB9190E366A00C4911E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 376F8DB6190E366A00C4911E /* Default.png */; };
+		376F8DBA190E366A00C4911E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 376F8DB7190E366A00C4911E /* Default@2x.png */; };
+		37936C1D18FB7F6000E6805F /* HuangyeLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37936C1C18FB7F6000E6805F /* HuangyeLib.framework */; };
+		37A292B21918E42C00651D1A /* DJDriverCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A292B11918E42C00651D1A /* DJDriverCell.m */; };
+		37ADD7F518FCCE0000441A59 /* DJNavigationWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ADD7F418FCCE0000441A59 /* DJNavigationWrapper.m */; };
+		37ADD7F918FCCE3600441A59 /* DJShareDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ADD7F818FCCE3600441A59 /* DJShareDetailVC.m */; };
+		37B4326E18EFC4E80070888C /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 37B4326418EFC4E80070888C /* MJRefresh.bundle */; };
+		37B4326F18EFC4E80070888C /* MJRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B4326718EFC4E80070888C /* MJRefreshBaseView.m */; };
+		37B4327018EFC4E80070888C /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B4326918EFC4E80070888C /* MJRefreshConst.m */; };
+		37B4327118EFC4E80070888C /* MJRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B4326B18EFC4E80070888C /* MJRefreshFooterView.m */; };
+		37B4327218EFC4E80070888C /* MJRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B4326D18EFC4E80070888C /* MJRefreshHeaderView.m */; };
+		37C0647619002FAE00B15CF5 /* DJDriverCalloutAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C0647519002FAE00B15CF5 /* DJDriverCalloutAnnotation.m */; };
+		37E762461902C8E2005E775A /* DJOrderEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E762451902C8E2005E775A /* DJOrderEntity.m */; };
+		37E9286A1915EB3B00871E00 /* DJOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E928691915EB3B00871E00 /* DJOrderCell.m */; };
+		8B83A08347034B8C849EC4F9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0EE96FD9DC4F5F94D90B2E /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21CBBA3718F90DC80033CDAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2117481A18F7F8680044D201 /* 58HuangyeLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 21CBB9FF18F908E00033CDAF;
+			remoteInfo = HuangyeLib;
+		};
+		3746A40918E8FEEA00FC1511 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3746A3DB18E8FEEA00FC1511 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3746A3E218E8FEEA00FC1511;
+			remoteInfo = 58DaijiaClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2101B4D8192378E0000D2BE7 /* DJVersionChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJVersionChecker.h; sourceTree = "<group>"; };
+		2101B4D9192378E1000D2BE7 /* DJVersionChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJVersionChecker.m; sourceTree = "<group>"; };
+		2101D230193D6A7900C88833 /* RDPBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RDPBundle.bundle; sourceTree = "<group>"; };
+		21031788190F88430046C7E7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		2110F99B19518A2700DF56A6 /* libMobClickLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMobClickLibrary.a; sourceTree = "<group>"; };
+		2110F99C19518A2700DF56A6 /* MobClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClick.h; sourceTree = "<group>"; };
+		211747E518F7E9910044D201 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		2117481A18F7F8680044D201 /* 58HuangyeLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = 58HuangyeLib.xcodeproj; path = 58HuangyeLib/58HuangyeLib.xcodeproj; sourceTree = "<group>"; };
+		2146DF00194AF81300DFE25C /* DJStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJStarView.h; sourceTree = "<group>"; };
+		2146DF01194AF81300DFE25C /* DJStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJStarView.m; sourceTree = "<group>"; };
+		2146DF03194B06A100DFE25C /* DJOrderDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJOrderDetailVC.h; sourceTree = "<group>"; };
+		2146DF04194B06A100DFE25C /* DJOrderDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJOrderDetailVC.m; sourceTree = "<group>"; };
+		21520ED0190940D8000D6212 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		2160C31C194E93C8004EF4E5 /* DJOrderDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJOrderDetailCell.h; sourceTree = "<group>"; };
+		2160C31D194E93C8004EF4E5 /* DJOrderDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJOrderDetailCell.m; sourceTree = "<group>"; };
+		2176A39F18FFA460003E5A3B /* libWeiboSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeiboSDK.a; sourceTree = "<group>"; };
+		2176A3A018FFA460003E5A3B /* WeiboSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WeiboSDK.bundle; sourceTree = "<group>"; };
+		2176A3A118FFA460003E5A3B /* WeiboSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboSDK.h; sourceTree = "<group>"; };
+		2176A3A318FFA460003E5A3B /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		2176A3A418FFA460003E5A3B /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		2176A3A518FFA460003E5A3B /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		2176A3C818FFED77003E5A3B /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		2176A3C918FFED77003E5A3B /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		2176A3CC18FFED93003E5A3B /* DJQQDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJQQDelegate.h; sourceTree = "<group>"; };
+		2176A3CD18FFED93003E5A3B /* DJQQDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJQQDelegate.m; sourceTree = "<group>"; };
+		2176A3CF18FFEDFD003E5A3B /* DJRespAnalyser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJRespAnalyser.h; path = 58DaijiaClient/Utils/DJRespAnalyser.h; sourceTree = SOURCE_ROOT; };
+		2176A3D018FFEDFD003E5A3B /* DJRespAnalyser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJRespAnalyser.m; path = 58DaijiaClient/Utils/DJRespAnalyser.m; sourceTree = SOURCE_ROOT; };
+		2176A3D318FFEE73003E5A3B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2176A3D518FFEE7C003E5A3B /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		2176A3D718FFEE87003E5A3B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2176A3D918FFEEA4003E5A3B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		2176A3DB18FFEEB1003E5A3B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		2176A3DD18FFEEBE003E5A3B /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		2176A3DF18FFEEC8003E5A3B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		2191F33C1921F256000F746A /* DJShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJShareManager.h; sourceTree = "<group>"; };
+		2191F33D1921F256000F746A /* DJShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJShareManager.m; sourceTree = "<group>"; };
+		2191F3421921F2BD000F746A /* DJShareSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJShareSheetController.h; sourceTree = "<group>"; };
+		2191F3431921F2BD000F746A /* DJShareSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJShareSheetController.m; sourceTree = "<group>"; };
+		219463631900C70800AE03A0 /* daijia.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = daijia.bundle; sourceTree = "<group>"; };
+		219463671900D13B00AE03A0 /* DJDriverAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJDriverAnnotationView.h; sourceTree = "<group>"; };
+		219463681900D13B00AE03A0 /* DJDriverAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJDriverAnnotationView.m; sourceTree = "<group>"; };
+		2194636A1900FD5400AE03A0 /* DJAdCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJAdCell.h; sourceTree = "<group>"; };
+		2194636B1900FD5400AE03A0 /* DJAdCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJAdCell.m; sourceTree = "<group>"; };
+		2195CD5D1904EA480068E2A4 /* DJMoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJMoreCell.h; sourceTree = "<group>"; };
+		2195CD5E1904EA480068E2A4 /* DJMoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJMoreCell.m; sourceTree = "<group>"; };
+		21B2B1471952B1B000DCC24C /* DJOrderDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJOrderDetail.h; sourceTree = "<group>"; };
+		21B2B1481952B1B000DCC24C /* DJOrderDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJOrderDetail.m; sourceTree = "<group>"; };
+		21B2B14B1952B2C500DCC24C /* DJOrderStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJOrderStatus.h; sourceTree = "<group>"; };
+		21B2B14C1952B2C500DCC24C /* DJOrderStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJOrderStatus.m; sourceTree = "<group>"; };
+		21B2B14E1952EF1C00DCC24C /* DJOrderDetailCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJOrderDetailCell2.h; sourceTree = "<group>"; };
+		21B2B14F1952EF1C00DCC24C /* DJOrderDetailCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJOrderDetailCell2.m; sourceTree = "<group>"; };
+		21B68B691958212800F2D75B /* DJOrderCompletedTableProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJOrderCompletedTableProvider.h; sourceTree = "<group>"; };
+		21B68B6A1958212800F2D75B /* DJOrderCompletedTableProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJOrderCompletedTableProvider.m; sourceTree = "<group>"; };
+		21B68B6D195825F600F2D75B /* DJOrderUncompletedTableProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJOrderUncompletedTableProvider.h; sourceTree = "<group>"; };
+		21B68B6E195825F600F2D75B /* DJOrderUncompletedTableProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJOrderUncompletedTableProvider.m; sourceTree = "<group>"; };
+		21B68B7019583B2300F2D75B /* DJOrderProviderFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJOrderProviderFactory.h; sourceTree = "<group>"; };
+		21B68B7119583B2300F2D75B /* DJOrderProviderFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJOrderProviderFactory.m; sourceTree = "<group>"; };
+		21CBB9E718F8F8630033CDAF /* DJShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJShareViewController.h; sourceTree = "<group>"; };
+		21CBB9E818F8F8630033CDAF /* DJShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJShareViewController.m; sourceTree = "<group>"; };
+		21CBBA6A18F929FB0033CDAF /* DJTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJTabController.h; path = Controllers/DJTabController.h; sourceTree = "<group>"; };
+		21CBBA6B18F929FB0033CDAF /* DJTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJTabController.m; path = Controllers/DJTabController.m; sourceTree = "<group>"; };
+		21CBBA7118F930BB0033CDAF /* DJUIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJUIUtils.h; path = Utils/DJUIUtils.h; sourceTree = "<group>"; };
+		21CBBA7218F930BB0033CDAF /* DJUIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJUIUtils.m; path = Utils/DJUIUtils.m; sourceTree = "<group>"; };
+		21E4261819187C6E00C1D0A0 /* BaiduMobStat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobStat.h; sourceTree = "<group>"; };
+		21E4261919187C6E00C1D0A0 /* libBaiduMobStat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBaiduMobStat.a; sourceTree = "<group>"; };
+		21E4261B19187C6E00C1D0A0 /* BaiduMobStat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobStat.h; sourceTree = "<group>"; };
+		21E4261C19187C6E00C1D0A0 /* libBaiduMobStat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBaiduMobStat.a; sourceTree = "<group>"; };
+		21E4264319187FC800C1D0A0 /* CJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer.h; sourceTree = "<group>"; };
+		21E4264419187FC800C1D0A0 /* CJSONDeserializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer.m; sourceTree = "<group>"; };
+		21E4264519187FC800C1D0A0 /* CJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializer.h; sourceTree = "<group>"; };
+		21E4264619187FC800C1D0A0 /* CJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializer.m; sourceTree = "<group>"; };
+		21E4264719187FC800C1D0A0 /* JSONRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONRepresentation.h; sourceTree = "<group>"; };
+		21E4264819187FC800C1D0A0 /* NSDictionary_JSONExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary_JSONExtensions.h; sourceTree = "<group>"; };
+		21E4264919187FC800C1D0A0 /* NSDictionary_JSONExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_JSONExtensions.m; sourceTree = "<group>"; };
+		21E4264D191880F600C1D0A0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		21E4264F1918811800C1D0A0 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		21E686211938248900FE3771 /* DJSegementContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJSegementContainer.h; path = Controllers/DJSegementContainer.h; sourceTree = "<group>"; };
+		21E686221938248900FE3771 /* DJSegementContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJSegementContainer.m; path = Controllers/DJSegementContainer.m; sourceTree = "<group>"; };
+		21E907F91916439C00EB19DA /* DJNavigationWraper2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJNavigationWraper2.h; sourceTree = "<group>"; };
+		21E907FA1916439C00EB19DA /* DJNavigationWraper2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJNavigationWraper2.m; sourceTree = "<group>"; };
+		21F1018319075AEE00AEDACC /* DJPriceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJPriceItem.h; sourceTree = "<group>"; };
+		21F1018419075AEE00AEDACC /* DJPriceItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJPriceItem.m; sourceTree = "<group>"; };
+		21F1018519075AEE00AEDACC /* DJPriceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJPriceObject.h; sourceTree = "<group>"; };
+		21F1018619075AEE00AEDACC /* DJPriceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJPriceObject.m; sourceTree = "<group>"; };
+		21F1018A19075C7100AEDACC /* DJPrevilageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJPrevilageCell.h; sourceTree = "<group>"; };
+		21F1018B19075C7100AEDACC /* DJPrevilageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJPrevilageCell.m; sourceTree = "<group>"; };
+		21F1018D19075D4F00AEDACC /* DJevaluationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJevaluationViewController.h; sourceTree = "<group>"; };
+		21F1018E19075D4F00AEDACC /* DJevaluationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJevaluationViewController.m; sourceTree = "<group>"; };
+		21F1019019075D9A00AEDACC /* DJStarSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJStarSlider.h; sourceTree = "<group>"; };
+		21F1019119075D9A00AEDACC /* DJStarSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJStarSlider.m; sourceTree = "<group>"; };
+		21F10194190763AD00AEDACC /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
+		21FEA2E1191BB12C00CC00C8 /* DJLoginFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJLoginFactory.h; sourceTree = "<group>"; };
+		21FEA2E2191BB12C00CC00C8 /* DJLoginFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJLoginFactory.m; sourceTree = "<group>"; };
+		21FEA2E3191BB12C00CC00C8 /* DJLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJLoginViewController.h; sourceTree = "<group>"; };
+		21FEA2E4191BB12C00CC00C8 /* DJLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJLoginViewController.m; sourceTree = "<group>"; };
+		21FEA2E5191BB12C00CC00C8 /* DJLoginViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJLoginViewController2.h; sourceTree = "<group>"; };
+		21FEA2E6191BB12C00CC00C8 /* DJLoginViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJLoginViewController2.m; sourceTree = "<group>"; };
+		3705853418F7B95A00467076 /* DJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJViewController.h; path = Controllers/DJViewController.h; sourceTree = "<group>"; };
+		3705853518F7B95A00467076 /* DJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJViewController.m; path = Controllers/DJViewController.m; sourceTree = "<group>"; };
+		3705853718F7B95A00467076 /* DJDriveListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJDriveListViewController.h; sourceTree = "<group>"; };
+		3705853818F7B95A00467076 /* DJDriveListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJDriveListViewController.m; sourceTree = "<group>"; };
+		3705853918F7B95A00467076 /* DJDriverMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJDriverMainViewController.h; sourceTree = "<group>"; };
+		3705853A18F7B95A00467076 /* DJDriverMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJDriverMainViewController.m; sourceTree = "<group>"; };
+		3705853B18F7B95A00467076 /* DJDriverMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJDriverMapViewController.h; sourceTree = "<group>"; };
+		3705853C18F7B95A00467076 /* DJDriverMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJDriverMapViewController.m; sourceTree = "<group>"; };
+		3705854018F7B95A00467076 /* DJMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJMoreViewController.h; sourceTree = "<group>"; };
+		3705854118F7B95A00467076 /* DJMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJMoreViewController.m; sourceTree = "<group>"; };
+		3705854318F7B95A00467076 /* DJPrevilageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJPrevilageViewController.h; sourceTree = "<group>"; };
+		3705854418F7B95A00467076 /* DJPrevilageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJPrevilageViewController.m; sourceTree = "<group>"; };
+		3705854618F7B95A00467076 /* DJPriceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJPriceViewController.h; sourceTree = "<group>"; };
+		3705854718F7B95A00467076 /* DJPriceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJPriceViewController.m; sourceTree = "<group>"; };
+		3705854918F7B95A00467076 /* DJProtocolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJProtocolViewController.h; sourceTree = "<group>"; };
+		3705854A18F7B95A00467076 /* DJProtocolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJProtocolViewController.m; sourceTree = "<group>"; };
+		3705854C18F7B95A00467076 /* DJAllOrderListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJAllOrderListViewController.h; sourceTree = "<group>"; };
+		3705854D18F7B95A00467076 /* DJAllOrderListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJAllOrderListViewController.m; sourceTree = "<group>"; };
+		3705854E18F7B95A00467076 /* DJCurrentOrderListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJCurrentOrderListViewController.h; sourceTree = "<group>"; };
+		3705854F18F7B95A00467076 /* DJCurrentOrderListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJCurrentOrderListViewController.m; sourceTree = "<group>"; };
+		3705855018F7B95A00467076 /* DJOrderListBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJOrderListBaseViewController.h; sourceTree = "<group>"; };
+		3705855118F7B95A00467076 /* DJOrderListBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJOrderListBaseViewController.m; sourceTree = "<group>"; };
+		3705855218F7B95A00467076 /* DJOrderMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJOrderMainViewController.h; sourceTree = "<group>"; };
+		3705855318F7B95A00467076 /* DJOrderMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJOrderMainViewController.m; sourceTree = "<group>"; };
+		3705856618F7B96F00467076 /* DJCupponsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJCupponsModel.h; path = Models/DJCupponsModel.h; sourceTree = "<group>"; };
+		3705856718F7B96F00467076 /* DJCupponsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJCupponsModel.m; path = Models/DJCupponsModel.m; sourceTree = "<group>"; };
+		3705856818F7B96F00467076 /* DJDriverAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJDriverAnnotation.h; path = Models/DJDriverAnnotation.h; sourceTree = "<group>"; };
+		3705856918F7B96F00467076 /* DJDriverAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJDriverAnnotation.m; path = Models/DJDriverAnnotation.m; sourceTree = "<group>"; };
+		3705856A18F7B96F00467076 /* DJDriverModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJDriverModel.h; path = Models/DJDriverModel.h; sourceTree = "<group>"; };
+		3705856B18F7B96F00467076 /* DJDriverModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJDriverModel.m; path = Models/DJDriverModel.m; sourceTree = "<group>"; };
+		3705856C18F7B96F00467076 /* DJOrderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJOrderModel.h; path = Models/DJOrderModel.h; sourceTree = "<group>"; };
+		3705856D18F7B96F00467076 /* DJOrderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJOrderModel.m; path = Models/DJOrderModel.m; sourceTree = "<group>"; };
+		3705857318F7B98000467076 /* DJConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJConst.h; sourceTree = "<group>"; };
+		3705857418F7B98000467076 /* DJConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJConst.m; sourceTree = "<group>"; };
+		3705857518F7B98000467076 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		3705857618F7B98000467076 /* DJAFNetworkingUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJAFNetworkingUtil.h; path = Utils/DJAFNetworkingUtil.h; sourceTree = "<group>"; };
+		3705857718F7B98000467076 /* DJAFNetworkingUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJAFNetworkingUtil.m; path = Utils/DJAFNetworkingUtil.m; sourceTree = "<group>"; };
+		3705857818F7B98000467076 /* DJCheckUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJCheckUtil.h; path = Utils/DJCheckUtil.h; sourceTree = "<group>"; };
+		3705857918F7B98000467076 /* DJCheckUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJCheckUtil.m; path = Utils/DJCheckUtil.m; sourceTree = "<group>"; };
+		3705857A18F7B98000467076 /* DJEnumUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJEnumUtil.h; path = Utils/DJEnumUtil.h; sourceTree = "<group>"; };
+		3705857B18F7B98000467076 /* DJEnumUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJEnumUtil.m; path = Utils/DJEnumUtil.m; sourceTree = "<group>"; };
+		3705857C18F7B98000467076 /* DJTableViewCellUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJTableViewCellUtil.h; path = Utils/DJTableViewCellUtil.h; sourceTree = "<group>"; };
+		3705857D18F7B98000467076 /* DJTableViewCellUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJTableViewCellUtil.m; path = Utils/DJTableViewCellUtil.m; sourceTree = "<group>"; };
+		370BDD9D192AFF550099B1B6 /* LocationManagerUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationManagerUtil.h; path = Utils/LocationManagerUtil.h; sourceTree = "<group>"; };
+		370BDD9E192AFF550099B1B6 /* LocationManagerUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationManagerUtil.m; path = Utils/LocationManagerUtil.m; sourceTree = "<group>"; };
+		370C6D161905248C007D3276 /* DJLoginUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJLoginUtil.h; path = Utils/DJLoginUtil.h; sourceTree = "<group>"; };
+		370C6D171905248C007D3276 /* DJLoginUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJLoginUtil.m; path = Utils/DJLoginUtil.m; sourceTree = "<group>"; };
+		370DF3BB18FE897900C72739 /* DJWeiboDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJWeiboDelegate.h; sourceTree = "<group>"; };
+		370DF3BC18FE897900C72739 /* DJWeiboDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJWeiboDelegate.m; sourceTree = "<group>"; };
+		370DF3BD18FE897900C72739 /* DJWeixinDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJWeixinDelegate.h; sourceTree = "<group>"; };
+		370DF3BE18FE897900C72739 /* DJWeixinDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJWeixinDelegate.m; sourceTree = "<group>"; };
+		370DF3C218FE8A2A00C72739 /* DJAdObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJAdObject.h; sourceTree = "<group>"; };
+		370DF3C318FE8A2A00C72739 /* DJAdObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJAdObject.m; sourceTree = "<group>"; };
+		370DF3C418FE8A2A00C72739 /* DJShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJShare.h; sourceTree = "<group>"; };
+		370DF3C518FE8A2A00C72739 /* DJShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJShare.m; sourceTree = "<group>"; };
+		370DF3C618FE8A2A00C72739 /* DJShareObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJShareObject.h; sourceTree = "<group>"; };
+		370DF3C718FE8A2A00C72739 /* DJShareObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJShareObject.m; sourceTree = "<group>"; };
+		370DF48018FE8B3E00C72739 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		370FDE5E1909F74A001036D5 /* DJEncryptUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJEncryptUtil.h; path = Utils/DJEncryptUtil.h; sourceTree = "<group>"; };
+		370FDE5F1909F74A001036D5 /* DJEncryptUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJEncryptUtil.m; path = Utils/DJEncryptUtil.m; sourceTree = "<group>"; };
+		3719C24119233A2500F3090F /* ImageBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageBuffer.h; path = Utils/ImageBuffer.h; sourceTree = "<group>"; };
+		3719C24219233A2500F3090F /* ImageBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageBuffer.m; path = Utils/ImageBuffer.m; sourceTree = "<group>"; };
+		371A84B018EE5DED0043DEAA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3728AFDD18FD8A440038FF04 /* DJPhoneUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJPhoneUtil.h; path = Utils/DJPhoneUtil.h; sourceTree = "<group>"; };
+		3728AFDE18FD8A440038FF04 /* DJPhoneUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJPhoneUtil.m; path = Utils/DJPhoneUtil.m; sourceTree = "<group>"; };
+		3735065E18FBE13F00851AF0 /* DJControlsFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJControlsFactory.h; path = Controllers/DJControlsFactory.h; sourceTree = "<group>"; };
+		3735065F18FBE13F00851AF0 /* DJControlsFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJControlsFactory.m; path = Controllers/DJControlsFactory.m; sourceTree = "<group>"; };
+		3746A3E318E8FEEA00FC1511 /* driveAgent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = driveAgent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3746A3E618E8FEEA00FC1511 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3746A3E818E8FEEA00FC1511 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3746A3EA18E8FEEA00FC1511 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3746A3F018E8FEEA00FC1511 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3746A3F218E8FEEA00FC1511 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3746A3F418E8FEEA00FC1511 /* 58DaijiaClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "58DaijiaClient-Prefix.pch"; sourceTree = "<group>"; };
+		3746A3F518E8FEEA00FC1511 /* DJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJAppDelegate.h; sourceTree = "<group>"; };
+		3746A3F618E8FEEA00FC1511 /* DJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJAppDelegate.m; sourceTree = "<group>"; };
+		3746A3FE18E8FEEA00FC1511 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3746A40418E8FEEA00FC1511 /* 58DaijiaClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 58DaijiaClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3746A40518E8FEEA00FC1511 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		376F8DA0190E2CA000C4911E /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@2x.png"; path = "58DaijiaClient/imgs/Icon-60@2x.png"; sourceTree = "<group>"; };
+		376F8DA1190E2CA000C4911E /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "58DaijiaClient/imgs/Icon-Small.png"; sourceTree = "<group>"; };
+		376F8DA2190E2CA000C4911E /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "58DaijiaClient/imgs/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		376F8DA3190E2CA000C4911E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = 58DaijiaClient/imgs/Icon.png; sourceTree = "<group>"; };
+		376F8DA4190E2CA000C4911E /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "58DaijiaClient/imgs/Icon@2x.png"; sourceTree = "<group>"; };
+		376F8DAD190E2F6800C4911E /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		376F8DB5190E366A00C4911E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "58DaijiaClient/imgs/Default-568h@2x.png"; sourceTree = "<group>"; };
+		376F8DB6190E366A00C4911E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = 58DaijiaClient/imgs/Default.png; sourceTree = "<group>"; };
+		376F8DB7190E366A00C4911E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "58DaijiaClient/imgs/Default@2x.png"; sourceTree = "<group>"; };
+		37936C1C18FB7F6000E6805F /* HuangyeLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HuangyeLib.framework; path = "../../../Library/Developer/Xcode/DerivedData/58DaijiaClient-bhcdyzhradlxlrcbxeulukysysob/Build/Products/Debug-iphonesimulator/HuangyeLib.framework"; sourceTree = "<group>"; };
+		37A292B01918E42C00651D1A /* DJDriverCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJDriverCell.h; sourceTree = "<group>"; };
+		37A292B11918E42C00651D1A /* DJDriverCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJDriverCell.m; sourceTree = "<group>"; };
+		37ADD7F318FCCE0000441A59 /* DJNavigationWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJNavigationWrapper.h; path = Controllers/DJNavigationWrapper.h; sourceTree = "<group>"; };
+		37ADD7F418FCCE0000441A59 /* DJNavigationWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJNavigationWrapper.m; path = Controllers/DJNavigationWrapper.m; sourceTree = "<group>"; };
+		37ADD7F718FCCE3600441A59 /* DJShareDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJShareDetailVC.h; sourceTree = "<group>"; };
+		37ADD7F818FCCE3600441A59 /* DJShareDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJShareDetailVC.m; sourceTree = "<group>"; };
+		37B4326418EFC4E80070888C /* MJRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MJRefresh.bundle; sourceTree = "<group>"; };
+		37B4326518EFC4E80070888C /* MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefresh.h; sourceTree = "<group>"; };
+		37B4326618EFC4E80070888C /* MJRefreshBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBaseView.h; sourceTree = "<group>"; };
+		37B4326718EFC4E80070888C /* MJRefreshBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshBaseView.m; sourceTree = "<group>"; };
+		37B4326818EFC4E80070888C /* MJRefreshConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshConst.h; sourceTree = "<group>"; };
+		37B4326918EFC4E80070888C /* MJRefreshConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshConst.m; sourceTree = "<group>"; };
+		37B4326A18EFC4E80070888C /* MJRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshFooterView.h; sourceTree = "<group>"; };
+		37B4326B18EFC4E80070888C /* MJRefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshFooterView.m; sourceTree = "<group>"; };
+		37B4326C18EFC4E80070888C /* MJRefreshHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshHeaderView.h; sourceTree = "<group>"; };
+		37B4326D18EFC4E80070888C /* MJRefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshHeaderView.m; sourceTree = "<group>"; };
+		37C0647419002FAE00B15CF5 /* DJDriverCalloutAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJDriverCalloutAnnotation.h; path = Models/DJDriverCalloutAnnotation.h; sourceTree = "<group>"; };
+		37C0647519002FAE00B15CF5 /* DJDriverCalloutAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJDriverCalloutAnnotation.m; path = Models/DJDriverCalloutAnnotation.m; sourceTree = "<group>"; };
+		37E03E4E190767100077D2C5 /* libPods-AFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-AFNetworking.a"; path = "Pods/build/Debug-iphoneos/libPods-AFNetworking.a"; sourceTree = "<group>"; };
+		37E03E4F190767100077D2C5 /* libPods-JSONKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-JSONKit.a"; path = "Pods/build/Debug-iphoneos/libPods-JSONKit.a"; sourceTree = "<group>"; };
+		37E762441902C8E2005E775A /* DJOrderEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJOrderEntity.h; path = Models/DJOrderEntity.h; sourceTree = "<group>"; };
+		37E762451902C8E2005E775A /* DJOrderEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJOrderEntity.m; path = Models/DJOrderEntity.m; sourceTree = "<group>"; };
+		37E928681915EB3B00871E00 /* DJOrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJOrderCell.h; sourceTree = "<group>"; };
+		37E928691915EB3B00871E00 /* DJOrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJOrderCell.m; sourceTree = "<group>"; };
+		37ED39FD18EEA85A00122575 /* meinv1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meinv1.jpg; sourceTree = "<group>"; };
+		4FE5296F6FFB4DC18932D0BB /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		CB0EE96FD9DC4F5F94D90B2E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3746A3E018E8FEEA00FC1511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21E4265219188D9A00C1D0A0 /* libBaiduMobStat.a in Frameworks */,
+				21E426531918A7AD00C1D0A0 /* libBaiduMobStat.a in Frameworks */,
+				21E42651191885FE00C1D0A0 /* libsqlite3.dylib in Frameworks */,
+				21E426501918811800C1D0A0 /* libz.1.2.5.dylib in Frameworks */,
+				21E4264E191880F600C1D0A0 /* CoreLocation.framework in Frameworks */,
+				371A84B118EE5DED0043DEAA /* QuartzCore.framework in Frameworks */,
+				2176A3DC18FFEEB1003E5A3B /* CoreTelephony.framework in Frameworks */,
+				3746A3E918E8FEEA00FC1511 /* CoreGraphics.framework in Frameworks */,
+				2176A3D818FFEE87003E5A3B /* SystemConfiguration.framework in Frameworks */,
+				2110F99D19518A2700DF56A6 /* libMobClickLibrary.a in Frameworks */,
+				2176A3D418FFEE73003E5A3B /* Security.framework in Frameworks */,
+				3746A3EB18E8FEEA00FC1511 /* UIKit.framework in Frameworks */,
+				3746A3E718E8FEEA00FC1511 /* Foundation.framework in Frameworks */,
+				2176A3CA18FFED77003E5A3B /* TencentOpenAPI.framework in Frameworks */,
+				2176A3E018FFEEC8003E5A3B /* libz.dylib in Frameworks */,
+				2176A3DE18FFEEBE003E5A3B /* libstdc++.dylib in Frameworks */,
+				2176A3D618FFEE7C003E5A3B /* libiconv.dylib in Frameworks */,
+				2176A3D218FFEE38003E5A3B /* TencentOpenApi_IOS_Bundle.bundle in Frameworks */,
+				37936C1D18FB7F6000E6805F /* HuangyeLib.framework in Frameworks */,
+				2176A3A818FFA461003E5A3B /* libWeChatSDK.a in Frameworks */,
+				2176A3A618FFA460003E5A3B /* libWeiboSDK.a in Frameworks */,
+				8B83A08347034B8C849EC4F9 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3746A40118E8FEEA00FC1511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3746A40618E8FEEA00FC1511 /* XCTest.framework in Frameworks */,
+				3746A40818E8FEEA00FC1511 /* UIKit.framework in Frameworks */,
+				3746A40718E8FEEA00FC1511 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2110F99A19518A2700DF56A6 /* umeng */ = {
+			isa = PBXGroup;
+			children = (
+				2110F99B19518A2700DF56A6 /* libMobClickLibrary.a */,
+				2110F99C19518A2700DF56A6 /* MobClick.h */,
+			);
+			path = umeng;
+			sourceTree = "<group>";
+		};
+		2117481B18F7F8680044D201 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21CBBA3818F90DC80033CDAF /* HuangyeLib.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2176A39D18FFA460003E5A3B /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				2110F99A19518A2700DF56A6 /* umeng */,
+				21E4261619187C6E00C1D0A0 /* baidu */,
+				2176A3C718FFED77003E5A3B /* qq */,
+				2176A39E18FFA460003E5A3B /* weibo */,
+				2176A3A218FFA460003E5A3B /* weixin */,
+			);
+			path = libs;
+			sourceTree = SOURCE_ROOT;
+		};
+		2176A39E18FFA460003E5A3B /* weibo */ = {
+			isa = PBXGroup;
+			children = (
+				2176A39F18FFA460003E5A3B /* libWeiboSDK.a */,
+				2176A3A018FFA460003E5A3B /* WeiboSDK.bundle */,
+				2176A3A118FFA460003E5A3B /* WeiboSDK.h */,
+			);
+			path = weibo;
+			sourceTree = "<group>";
+		};
+		2176A3A218FFA460003E5A3B /* weixin */ = {
+			isa = PBXGroup;
+			children = (
+				2176A3A318FFA460003E5A3B /* libWeChatSDK.a */,
+				2176A3A418FFA460003E5A3B /* WXApi.h */,
+				2176A3A518FFA460003E5A3B /* WXApiObject.h */,
+			);
+			path = weixin;
+			sourceTree = "<group>";
+		};
+		2176A3C718FFED77003E5A3B /* qq */ = {
+			isa = PBXGroup;
+			children = (
+				2176A3C818FFED77003E5A3B /* TencentOpenAPI.framework */,
+				2176A3C918FFED77003E5A3B /* TencentOpenApi_IOS_Bundle.bundle */,
+			);
+			path = qq;
+			sourceTree = "<group>";
+		};
+		21E4261619187C6E00C1D0A0 /* baidu */ = {
+			isa = PBXGroup;
+			children = (
+				21E4261719187C6E00C1D0A0 /* Release-iphoneos */,
+				21E4261A19187C6E00C1D0A0 /* Release-iphonesimulator */,
+				21E4261D19187C6E00C1D0A0 /* TouchJSON */,
+			);
+			path = baidu;
+			sourceTree = "<group>";
+		};
+		21E4261719187C6E00C1D0A0 /* Release-iphoneos */ = {
+			isa = PBXGroup;
+			children = (
+				21E4261819187C6E00C1D0A0 /* BaiduMobStat.h */,
+				21E4261919187C6E00C1D0A0 /* libBaiduMobStat.a */,
+			);
+			path = "Release-iphoneos";
+			sourceTree = "<group>";
+		};
+		21E4261A19187C6E00C1D0A0 /* Release-iphonesimulator */ = {
+			isa = PBXGroup;
+			children = (
+				21E4261B19187C6E00C1D0A0 /* BaiduMobStat.h */,
+				21E4261C19187C6E00C1D0A0 /* libBaiduMobStat.a */,
+			);
+			path = "Release-iphonesimulator";
+			sourceTree = "<group>";
+		};
+		21E4261D19187C6E00C1D0A0 /* TouchJSON */ = {
+			isa = PBXGroup;
+			children = (
+				21E4264319187FC800C1D0A0 /* CJSONDeserializer.h */,
+				21E4264419187FC800C1D0A0 /* CJSONDeserializer.m */,
+				21E4264519187FC800C1D0A0 /* CJSONSerializer.h */,
+				21E4264619187FC800C1D0A0 /* CJSONSerializer.m */,
+				21E4264719187FC800C1D0A0 /* JSONRepresentation.h */,
+				21E4264819187FC800C1D0A0 /* NSDictionary_JSONExtensions.h */,
+				21E4264919187FC800C1D0A0 /* NSDictionary_JSONExtensions.m */,
+			);
+			path = TouchJSON;
+			sourceTree = "<group>";
+		};
+		21E907F11915EA6A00EB19DA /* order */ = {
+			isa = PBXGroup;
+			children = (
+				37E928681915EB3B00871E00 /* DJOrderCell.h */,
+				37E928691915EB3B00871E00 /* DJOrderCell.m */,
+				21B2B1471952B1B000DCC24C /* DJOrderDetail.h */,
+				21B2B1481952B1B000DCC24C /* DJOrderDetail.m */,
+				21B2B14B1952B2C500DCC24C /* DJOrderStatus.h */,
+				21B2B14C1952B2C500DCC24C /* DJOrderStatus.m */,
+			);
+			name = order;
+			path = Models/order;
+			sourceTree = "<group>";
+		};
+		21F1018219075AEE00AEDACC /* price */ = {
+			isa = PBXGroup;
+			children = (
+				21F1018319075AEE00AEDACC /* DJPriceItem.h */,
+				21F1018419075AEE00AEDACC /* DJPriceItem.m */,
+				21F1018519075AEE00AEDACC /* DJPriceObject.h */,
+				21F1018619075AEE00AEDACC /* DJPriceObject.m */,
+			);
+			name = price;
+			path = Models/price;
+			sourceTree = "<group>";
+		};
+		21FEA2E0191BB0FE00CC00C8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				21FEA2E1191BB12C00CC00C8 /* DJLoginFactory.h */,
+				21FEA2E2191BB12C00CC00C8 /* DJLoginFactory.m */,
+				21FEA2E3191BB12C00CC00C8 /* DJLoginViewController.h */,
+				21FEA2E4191BB12C00CC00C8 /* DJLoginViewController.m */,
+				21FEA2E5191BB12C00CC00C8 /* DJLoginViewController2.h */,
+				21FEA2E6191BB12C00CC00C8 /* DJLoginViewController2.m */,
+			);
+			name = Login;
+			path = Controllers/Login;
+			sourceTree = "<group>";
+		};
+		370536C918EBA07C00D74AB8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				370BDD9D192AFF550099B1B6 /* LocationManagerUtil.h */,
+				370BDD9E192AFF550099B1B6 /* LocationManagerUtil.m */,
+				3719C24119233A2500F3090F /* ImageBuffer.h */,
+				3719C24219233A2500F3090F /* ImageBuffer.m */,
+				370C6D161905248C007D3276 /* DJLoginUtil.h */,
+				370C6D171905248C007D3276 /* DJLoginUtil.m */,
+				3705857218F7B98000467076 /* Const */,
+				3705857618F7B98000467076 /* DJAFNetworkingUtil.h */,
+				3705857718F7B98000467076 /* DJAFNetworkingUtil.m */,
+				3705857818F7B98000467076 /* DJCheckUtil.h */,
+				3705857918F7B98000467076 /* DJCheckUtil.m */,
+				3705857A18F7B98000467076 /* DJEnumUtil.h */,
+				3705857B18F7B98000467076 /* DJEnumUtil.m */,
+				3705857C18F7B98000467076 /* DJTableViewCellUtil.h */,
+				3705857D18F7B98000467076 /* DJTableViewCellUtil.m */,
+				21CBBA7118F930BB0033CDAF /* DJUIUtils.h */,
+				21CBBA7218F930BB0033CDAF /* DJUIUtils.m */,
+				3728AFDD18FD8A440038FF04 /* DJPhoneUtil.h */,
+				3728AFDE18FD8A440038FF04 /* DJPhoneUtil.m */,
+				370FDE5E1909F74A001036D5 /* DJEncryptUtil.h */,
+				370FDE5F1909F74A001036D5 /* DJEncryptUtil.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		370536CA18EBA08500D74AB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				21E907F11915EA6A00EB19DA /* order */,
+				21F1018219075AEE00AEDACC /* price */,
+				370DF3C118FE8A2A00C72739 /* Share */,
+				3705856618F7B96F00467076 /* DJCupponsModel.h */,
+				3705856718F7B96F00467076 /* DJCupponsModel.m */,
+				3705856818F7B96F00467076 /* DJDriverAnnotation.h */,
+				3705856918F7B96F00467076 /* DJDriverAnnotation.m */,
+				3705856A18F7B96F00467076 /* DJDriverModel.h */,
+				3705856B18F7B96F00467076 /* DJDriverModel.m */,
+				3705856C18F7B96F00467076 /* DJOrderModel.h */,
+				3705856D18F7B96F00467076 /* DJOrderModel.m */,
+				37C0647419002FAE00B15CF5 /* DJDriverCalloutAnnotation.h */,
+				37C0647519002FAE00B15CF5 /* DJDriverCalloutAnnotation.m */,
+				37E762441902C8E2005E775A /* DJOrderEntity.h */,
+				37E762451902C8E2005E775A /* DJOrderEntity.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3705853618F7B95A00467076 /* DriverList */ = {
+			isa = PBXGroup;
+			children = (
+				219463671900D13B00AE03A0 /* DJDriverAnnotationView.h */,
+				219463681900D13B00AE03A0 /* DJDriverAnnotationView.m */,
+				3705853718F7B95A00467076 /* DJDriveListViewController.h */,
+				3705853818F7B95A00467076 /* DJDriveListViewController.m */,
+				3705853918F7B95A00467076 /* DJDriverMainViewController.h */,
+				3705853A18F7B95A00467076 /* DJDriverMainViewController.m */,
+				3705853B18F7B95A00467076 /* DJDriverMapViewController.h */,
+				3705853C18F7B95A00467076 /* DJDriverMapViewController.m */,
+				37A292B01918E42C00651D1A /* DJDriverCell.h */,
+				37A292B11918E42C00651D1A /* DJDriverCell.m */,
+			);
+			name = DriverList;
+			path = Controllers/DriverList;
+			sourceTree = "<group>";
+		};
+		3705853F18F7B95A00467076 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				2195CD5D1904EA480068E2A4 /* DJMoreCell.h */,
+				2195CD5E1904EA480068E2A4 /* DJMoreCell.m */,
+				3705854018F7B95A00467076 /* DJMoreViewController.h */,
+				3705854118F7B95A00467076 /* DJMoreViewController.m */,
+				2101B4D8192378E0000D2BE7 /* DJVersionChecker.h */,
+				2101B4D9192378E1000D2BE7 /* DJVersionChecker.m */,
+				3705854218F7B95A00467076 /* Previlage */,
+				3705854518F7B95A00467076 /* Price */,
+				3705854818F7B95A00467076 /* Protocol */,
+			);
+			name = More;
+			path = Controllers/More;
+			sourceTree = "<group>";
+		};
+		3705854218F7B95A00467076 /* Previlage */ = {
+			isa = PBXGroup;
+			children = (
+				21F1018A19075C7100AEDACC /* DJPrevilageCell.h */,
+				21F1018B19075C7100AEDACC /* DJPrevilageCell.m */,
+				3705854318F7B95A00467076 /* DJPrevilageViewController.h */,
+				3705854418F7B95A00467076 /* DJPrevilageViewController.m */,
+			);
+			path = Previlage;
+			sourceTree = "<group>";
+		};
+		3705854518F7B95A00467076 /* Price */ = {
+			isa = PBXGroup;
+			children = (
+				3705854618F7B95A00467076 /* DJPriceViewController.h */,
+				3705854718F7B95A00467076 /* DJPriceViewController.m */,
+			);
+			path = Price;
+			sourceTree = "<group>";
+		};
+		3705854818F7B95A00467076 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				3705854918F7B95A00467076 /* DJProtocolViewController.h */,
+				3705854A18F7B95A00467076 /* DJProtocolViewController.m */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		3705854B18F7B95A00467076 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				3705854C18F7B95A00467076 /* DJAllOrderListViewController.h */,
+				3705854D18F7B95A00467076 /* DJAllOrderListViewController.m */,
+				3705854E18F7B95A00467076 /* DJCurrentOrderListViewController.h */,
+				3705854F18F7B95A00467076 /* DJCurrentOrderListViewController.m */,
+				3705855018F7B95A00467076 /* DJOrderListBaseViewController.h */,
+				3705855118F7B95A00467076 /* DJOrderListBaseViewController.m */,
+				3705855218F7B95A00467076 /* DJOrderMainViewController.h */,
+				3705855318F7B95A00467076 /* DJOrderMainViewController.m */,
+				21F1018D19075D4F00AEDACC /* DJevaluationViewController.h */,
+				21F1018E19075D4F00AEDACC /* DJevaluationViewController.m */,
+				21F1019019075D9A00AEDACC /* DJStarSlider.h */,
+				21F1019119075D9A00AEDACC /* DJStarSlider.m */,
+				2146DF00194AF81300DFE25C /* DJStarView.h */,
+				2146DF01194AF81300DFE25C /* DJStarView.m */,
+				2146DF03194B06A100DFE25C /* DJOrderDetailVC.h */,
+				2146DF04194B06A100DFE25C /* DJOrderDetailVC.m */,
+				2160C31C194E93C8004EF4E5 /* DJOrderDetailCell.h */,
+				2160C31D194E93C8004EF4E5 /* DJOrderDetailCell.m */,
+				21B2B14E1952EF1C00DCC24C /* DJOrderDetailCell2.h */,
+				21B2B14F1952EF1C00DCC24C /* DJOrderDetailCell2.m */,
+				21B68B691958212800F2D75B /* DJOrderCompletedTableProvider.h */,
+				21B68B6A1958212800F2D75B /* DJOrderCompletedTableProvider.m */,
+				21B68B6D195825F600F2D75B /* DJOrderUncompletedTableProvider.h */,
+				21B68B6E195825F600F2D75B /* DJOrderUncompletedTableProvider.m */,
+				21B68B7019583B2300F2D75B /* DJOrderProviderFactory.h */,
+				21B68B7119583B2300F2D75B /* DJOrderProviderFactory.m */,
+			);
+			name = Order;
+			path = Controllers/Order;
+			sourceTree = "<group>";
+		};
+		3705855618F7B95A00467076 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				2176A3CC18FFED93003E5A3B /* DJQQDelegate.h */,
+				2176A3CD18FFED93003E5A3B /* DJQQDelegate.m */,
+				370DF3BB18FE897900C72739 /* DJWeiboDelegate.h */,
+				370DF3BC18FE897900C72739 /* DJWeiboDelegate.m */,
+				370DF3BD18FE897900C72739 /* DJWeixinDelegate.h */,
+				370DF3BE18FE897900C72739 /* DJWeixinDelegate.m */,
+				37ADD7F718FCCE3600441A59 /* DJShareDetailVC.h */,
+				37ADD7F818FCCE3600441A59 /* DJShareDetailVC.m */,
+				21CBB9E718F8F8630033CDAF /* DJShareViewController.h */,
+				21CBB9E818F8F8630033CDAF /* DJShareViewController.m */,
+				2194636A1900FD5400AE03A0 /* DJAdCell.h */,
+				2194636B1900FD5400AE03A0 /* DJAdCell.m */,
+				2191F33C1921F256000F746A /* DJShareManager.h */,
+				2191F33D1921F256000F746A /* DJShareManager.m */,
+				2191F3421921F2BD000F746A /* DJShareSheetController.h */,
+				2191F3431921F2BD000F746A /* DJShareSheetController.m */,
+			);
+			name = Share;
+			path = Controllers/Share;
+			sourceTree = "<group>";
+		};
+		3705857218F7B98000467076 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				2176A3CF18FFEDFD003E5A3B /* DJRespAnalyser.h */,
+				2176A3D018FFEDFD003E5A3B /* DJRespAnalyser.m */,
+				3705857318F7B98000467076 /* DJConst.h */,
+				3705857418F7B98000467076 /* DJConst.m */,
+				3705857518F7B98000467076 /* Header.h */,
+			);
+			name = Const;
+			path = Utils/Const;
+			sourceTree = "<group>";
+		};
+		370DF3C118FE8A2A00C72739 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				370DF3C218FE8A2A00C72739 /* DJAdObject.h */,
+				370DF3C318FE8A2A00C72739 /* DJAdObject.m */,
+				370DF3C418FE8A2A00C72739 /* DJShare.h */,
+				370DF3C518FE8A2A00C72739 /* DJShare.m */,
+				370DF3C618FE8A2A00C72739 /* DJShareObject.h */,
+				370DF3C718FE8A2A00C72739 /* DJShareObject.m */,
+			);
+			name = Share;
+			path = Models/Share;
+			sourceTree = "<group>";
+		};
+		3746A3DA18E8FEEA00FC1511 = {
+			isa = PBXGroup;
+			children = (
+				376F8DB5190E366A00C4911E /* Default-568h@2x.png */,
+				376F8DB6190E366A00C4911E /* Default.png */,
+				376F8DB7190E366A00C4911E /* Default@2x.png */,
+				376F8DA0190E2CA000C4911E /* Icon-60@2x.png */,
+				376F8DA1190E2CA000C4911E /* Icon-Small.png */,
+				376F8DA2190E2CA000C4911E /* Icon-Small@2x.png */,
+				376F8DA3190E2CA000C4911E /* Icon.png */,
+				376F8DA4190E2CA000C4911E /* Icon@2x.png */,
+				3746A3EC18E8FEEA00FC1511 /* 58DaijiaClient */,
+				3746A3E518E8FEEA00FC1511 /* Frameworks */,
+				3746A3E418E8FEEA00FC1511 /* Products */,
+				4FE5296F6FFB4DC18932D0BB /* Pods.xcconfig */,
+				21F10194190763AD00AEDACC /* Podfile.lock */,
+			);
+			sourceTree = "<group>";
+		};
+		3746A3E418E8FEEA00FC1511 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3746A3E318E8FEEA00FC1511 /* driveAgent.app */,
+				3746A40418E8FEEA00FC1511 /* 58DaijiaClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3746A3E518E8FEEA00FC1511 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2101D230193D6A7900C88833 /* RDPBundle.bundle */,
+				21E4264F1918811800C1D0A0 /* libz.1.2.5.dylib */,
+				21E4264D191880F600C1D0A0 /* CoreLocation.framework */,
+				21520ED0190940D8000D6212 /* ProgressHUD.bundle */,
+				37E03E4F190767100077D2C5 /* libPods-JSONKit.a */,
+				37E03E4E190767100077D2C5 /* libPods-AFNetworking.a */,
+				219463631900C70800AE03A0 /* daijia.bundle */,
+				2176A3DF18FFEEC8003E5A3B /* libz.dylib */,
+				2176A3DD18FFEEBE003E5A3B /* libstdc++.dylib */,
+				2176A3DB18FFEEB1003E5A3B /* CoreTelephony.framework */,
+				2176A3D918FFEEA4003E5A3B /* libsqlite3.dylib */,
+				2176A3D718FFEE87003E5A3B /* SystemConfiguration.framework */,
+				2176A3D518FFEE7C003E5A3B /* libiconv.dylib */,
+				2176A3D318FFEE73003E5A3B /* Security.framework */,
+				37936C1C18FB7F6000E6805F /* HuangyeLib.framework */,
+				2117481A18F7F8680044D201 /* 58HuangyeLib.xcodeproj */,
+				371A84B018EE5DED0043DEAA /* QuartzCore.framework */,
+				3746A3E618E8FEEA00FC1511 /* Foundation.framework */,
+				3746A3E818E8FEEA00FC1511 /* CoreGraphics.framework */,
+				3746A3EA18E8FEEA00FC1511 /* UIKit.framework */,
+				3746A40518E8FEEA00FC1511 /* XCTest.framework */,
+				CB0EE96FD9DC4F5F94D90B2E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3746A3EC18E8FEEA00FC1511 /* 58DaijiaClient */ = {
+			isa = PBXGroup;
+			children = (
+				21FEA2E0191BB0FE00CC00C8 /* Login */,
+				2176A39D18FFA460003E5A3B /* libs */,
+				37B4326318EFC4E80070888C /* MJRefresh */,
+				37FDA21F18ED0E1B00D464ED /* Controllers */,
+				370536CA18EBA08500D74AB8 /* Models */,
+				370536C918EBA07C00D74AB8 /* Utils */,
+				3746A3F518E8FEEA00FC1511 /* DJAppDelegate.h */,
+				3746A3F618E8FEEA00FC1511 /* DJAppDelegate.m */,
+				3746A3FE18E8FEEA00FC1511 /* Images.xcassets */,
+				376F8DAD190E2F6800C4911E /* Images-2.xcassets */,
+				3746A3ED18E8FEEA00FC1511 /* Supporting Files */,
+			);
+			path = 58DaijiaClient;
+			sourceTree = "<group>";
+		};
+		3746A3ED18E8FEEA00FC1511 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21031787190F88430046C7E7 /* Localizable.strings */,
+				370DF48018FE8B3E00C72739 /* Info.plist */,
+				3746A3EF18E8FEEA00FC1511 /* InfoPlist.strings */,
+				3746A3F218E8FEEA00FC1511 /* main.m */,
+				3746A3F418E8FEEA00FC1511 /* 58DaijiaClient-Prefix.pch */,
+				37ED39FD18EEA85A00122575 /* meinv1.jpg */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37B4326318EFC4E80070888C /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				37B4326418EFC4E80070888C /* MJRefresh.bundle */,
+				37B4326518EFC4E80070888C /* MJRefresh.h */,
+				37B4326618EFC4E80070888C /* MJRefreshBaseView.h */,
+				37B4326718EFC4E80070888C /* MJRefreshBaseView.m */,
+				37B4326818EFC4E80070888C /* MJRefreshConst.h */,
+				37B4326918EFC4E80070888C /* MJRefreshConst.m */,
+				37B4326A18EFC4E80070888C /* MJRefreshFooterView.h */,
+				37B4326B18EFC4E80070888C /* MJRefreshFooterView.m */,
+				37B4326C18EFC4E80070888C /* MJRefreshHeaderView.h */,
+				37B4326D18EFC4E80070888C /* MJRefreshHeaderView.m */,
+			);
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		37FDA21F18ED0E1B00D464ED /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				37ADD7F318FCCE0000441A59 /* DJNavigationWrapper.h */,
+				37ADD7F418FCCE0000441A59 /* DJNavigationWrapper.m */,
+				21E907F91916439C00EB19DA /* DJNavigationWraper2.h */,
+				21E907FA1916439C00EB19DA /* DJNavigationWraper2.m */,
+				3735065E18FBE13F00851AF0 /* DJControlsFactory.h */,
+				3735065F18FBE13F00851AF0 /* DJControlsFactory.m */,
+				3705853418F7B95A00467076 /* DJViewController.h */,
+				3705853518F7B95A00467076 /* DJViewController.m */,
+				21E686211938248900FE3771 /* DJSegementContainer.h */,
+				21E686221938248900FE3771 /* DJSegementContainer.m */,
+				3705853618F7B95A00467076 /* DriverList */,
+				3705853F18F7B95A00467076 /* More */,
+				3705854B18F7B95A00467076 /* Order */,
+				3705855618F7B95A00467076 /* Share */,
+				21CBBA6A18F929FB0033CDAF /* DJTabController.h */,
+				21CBBA6B18F929FB0033CDAF /* DJTabController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3746A3E218E8FEEA00FC1511 /* 58DaijiaClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3746A41518E8FEEA00FC1511 /* Build configuration list for PBXNativeTarget "58DaijiaClient" */;
+			buildPhases = (
+				EB0B795BC52446E8B2292FE5 /* Check Pods Manifest.lock */,
+				3746A3DF18E8FEEA00FC1511 /* Sources */,
+				3746A3E018E8FEEA00FC1511 /* Frameworks */,
+				3746A3E118E8FEEA00FC1511 /* Resources */,
+				E722DB6104D546E0A291DC6E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 58DaijiaClient;
+			productName = 58DaijiaClient;
+			productReference = 3746A3E318E8FEEA00FC1511 /* driveAgent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3746A40318E8FEEA00FC1511 /* 58DaijiaClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3746A41818E8FEEA00FC1511 /* Build configuration list for PBXNativeTarget "58DaijiaClientTests" */;
+			buildPhases = (
+				3746A40018E8FEEA00FC1511 /* Sources */,
+				3746A40118E8FEEA00FC1511 /* Frameworks */,
+				3746A40218E8FEEA00FC1511 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3746A40A18E8FEEA00FC1511 /* PBXTargetDependency */,
+			);
+			name = 58DaijiaClientTests;
+			productName = 58DaijiaClientTests;
+			productReference = 3746A40418E8FEEA00FC1511 /* 58DaijiaClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3746A3DB18E8FEEA00FC1511 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DJ;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = 58;
+				TargetAttributes = {
+					3746A3E218E8FEEA00FC1511 = {
+						DevelopmentTeam = EJA352Y795;
+					};
+					3746A40318E8FEEA00FC1511 = {
+						TestTargetID = 3746A3E218E8FEEA00FC1511;
+					};
+				};
+			};
+			buildConfigurationList = 3746A3DE18E8FEEA00FC1511 /* Build configuration list for PBXProject "58DaijiaClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 3746A3DA18E8FEEA00FC1511;
+			productRefGroup = 3746A3E418E8FEEA00FC1511 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2117481B18F7F8680044D201 /* Products */;
+					ProjectRef = 2117481A18F7F8680044D201 /* 58HuangyeLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				3746A3E218E8FEEA00FC1511 /* 58DaijiaClient */,
+				3746A40318E8FEEA00FC1511 /* 58DaijiaClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		21CBBA3818F90DC80033CDAF /* HuangyeLib.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = HuangyeLib.framework;
+			remoteRef = 21CBBA3718F90DC80033CDAF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3746A3E118E8FEEA00FC1511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				376F8DAB190E2CA000C4911E /* Icon.png in Resources */,
+				376F8DB9190E366A00C4911E /* Default.png in Resources */,
+				376F8DAC190E2CA000C4911E /* Icon@2x.png in Resources */,
+				21F10195190763AD00AEDACC /* Podfile.lock in Resources */,
+				2176A3CB18FFED77003E5A3B /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				21031789190F88430046C7E7 /* Localizable.strings in Resources */,
+				376F8DA8190E2CA000C4911E /* Icon-60@2x.png in Resources */,
+				219463641900C70800AE03A0 /* daijia.bundle in Resources */,
+				2101D231193D6A7900C88833 /* RDPBundle.bundle in Resources */,
+				3746A3FF18E8FEEA00FC1511 /* Images.xcassets in Resources */,
+				376F8DAE190E2F6800C4911E /* Images-2.xcassets in Resources */,
+				376F8DB8190E366A00C4911E /* Default-568h@2x.png in Resources */,
+				376F8DA9190E2CA000C4911E /* Icon-Small.png in Resources */,
+				2176A3A718FFA461003E5A3B /* WeiboSDK.bundle in Resources */,
+				21520ED1190940D8000D6212 /* ProgressHUD.bundle in Resources */,
+				3746A3F118E8FEEA00FC1511 /* InfoPlist.strings in Resources */,
+				376F8DAA190E2CA000C4911E /* Icon-Small@2x.png in Resources */,
+				376F8DBA190E366A00C4911E /* Default@2x.png in Resources */,
+				370DF48118FE8B3E00C72739 /* Info.plist in Resources */,
+				37B4326E18EFC4E80070888C /* MJRefresh.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3746A40218E8FEEA00FC1511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E722DB6104D546E0A291DC6E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB0B795BC52446E8B2292FE5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3746A3DF18E8FEEA00FC1511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F1018719075AEE00AEDACC /* DJPriceItem.m in Sources */,
+				21E4264C19187FC800C1D0A0 /* NSDictionary_JSONExtensions.m in Sources */,
+				3735066018FBE13F00851AF0 /* DJControlsFactory.m in Sources */,
+				2101B4DA192378E1000D2BE7 /* DJVersionChecker.m in Sources */,
+				3705856418F7B95A00467076 /* DJOrderMainViewController.m in Sources */,
+				3705858118F7B98000467076 /* DJEnumUtil.m in Sources */,
+				3705855D18F7B95A00467076 /* DJMoreViewController.m in Sources */,
+				37C0647619002FAE00B15CF5 /* DJDriverCalloutAnnotation.m in Sources */,
+				37B4327118EFC4E80070888C /* MJRefreshFooterView.m in Sources */,
+				2160C31E194E93C8004EF4E5 /* DJOrderDetailCell.m in Sources */,
+				3705856118F7B95A00467076 /* DJAllOrderListViewController.m in Sources */,
+				3705857018F7B96F00467076 /* DJDriverModel.m in Sources */,
+				2176A3CE18FFED93003E5A3B /* DJQQDelegate.m in Sources */,
+				2146DF05194B06A100DFE25C /* DJOrderDetailVC.m in Sources */,
+				37ADD7F518FCCE0000441A59 /* DJNavigationWrapper.m in Sources */,
+				3705855818F7B95A00467076 /* DJViewController.m in Sources */,
+				370DF3CA18FE8A2A00C72739 /* DJShareObject.m in Sources */,
+				21F1018819075AEE00AEDACC /* DJPriceObject.m in Sources */,
+				3705856318F7B95A00467076 /* DJOrderListBaseViewController.m in Sources */,
+				37E9286A1915EB3B00871E00 /* DJOrderCell.m in Sources */,
+				3705856018F7B95A00467076 /* DJProtocolViewController.m in Sources */,
+				3705855E18F7B95A00467076 /* DJPrevilageViewController.m in Sources */,
+				21CBBA6C18F929FB0033CDAF /* DJTabController.m in Sources */,
+				2191F3441921F2BD000F746A /* DJShareSheetController.m in Sources */,
+				21B68B7219583B2300F2D75B /* DJOrderProviderFactory.m in Sources */,
+				3705856E18F7B96F00467076 /* DJCupponsModel.m in Sources */,
+				3728AFDF18FD8A440038FF04 /* DJPhoneUtil.m in Sources */,
+				370DF3C818FE8A2A00C72739 /* DJAdObject.m in Sources */,
+				219463691900D13B00AE03A0 /* DJDriverAnnotationView.m in Sources */,
+				21CBB9E918F8F8630033CDAF /* DJShareViewController.m in Sources */,
+				370FDE601909F74A001036D5 /* DJEncryptUtil.m in Sources */,
+				21E4264B19187FC800C1D0A0 /* CJSONSerializer.m in Sources */,
+				37ADD7F918FCCE3600441A59 /* DJShareDetailVC.m in Sources */,
+				2176A3D118FFEDFD003E5A3B /* DJRespAnalyser.m in Sources */,
+				3705857F18F7B98000467076 /* DJAFNetworkingUtil.m in Sources */,
+				21B68B6B1958212800F2D75B /* DJOrderCompletedTableProvider.m in Sources */,
+				2146DF02194AF81300DFE25C /* DJStarView.m in Sources */,
+				3705857118F7B96F00467076 /* DJOrderModel.m in Sources */,
+				21F101B1190799A900AEDACC /* DJStarSlider.m in Sources */,
+				3719C24319233A2500F3090F /* ImageBuffer.m in Sources */,
+				3705855B18F7B95A00467076 /* DJDriverMapViewController.m in Sources */,
+				21E907FB1916439C00EB19DA /* DJNavigationWraper2.m in Sources */,
+				3746A3F718E8FEEA00FC1511 /* DJAppDelegate.m in Sources */,
+				370DF3C918FE8A2A00C72739 /* DJShare.m in Sources */,
+				370DF3BF18FE897900C72739 /* DJWeiboDelegate.m in Sources */,
+				3705855F18F7B95A00467076 /* DJPriceViewController.m in Sources */,
+				21E4264A19187FC800C1D0A0 /* CJSONDeserializer.m in Sources */,
+				3705856F18F7B96F00467076 /* DJDriverAnnotation.m in Sources */,
+				37E762461902C8E2005E775A /* DJOrderEntity.m in Sources */,
+				2195CD5F1904EA480068E2A4 /* DJMoreCell.m in Sources */,
+				21FEA2E9191BB12C00CC00C8 /* DJLoginViewController2.m in Sources */,
+				3705858018F7B98000467076 /* DJCheckUtil.m in Sources */,
+				21B2B1501952EF1C00DCC24C /* DJOrderDetailCell2.m in Sources */,
+				21CBBA7318F930BB0033CDAF /* DJUIUtils.m in Sources */,
+				37B4327218EFC4E80070888C /* MJRefreshHeaderView.m in Sources */,
+				2191F33E1921F256000F746A /* DJShareManager.m in Sources */,
+				21FEA2E7191BB12C00CC00C8 /* DJLoginFactory.m in Sources */,
+				3705855918F7B95A00467076 /* DJDriveListViewController.m in Sources */,
+				21B2B14D1952B2C500DCC24C /* DJOrderStatus.m in Sources */,
+				370C6D181905248C007D3276 /* DJLoginUtil.m in Sources */,
+				21FEA2E8191BB12C00CC00C8 /* DJLoginViewController.m in Sources */,
+				37B4327018EFC4E80070888C /* MJRefreshConst.m in Sources */,
+				3705855A18F7B95A00467076 /* DJDriverMainViewController.m in Sources */,
+				3705858218F7B98000467076 /* DJTableViewCellUtil.m in Sources */,
+				370BDD9F192AFF550099B1B6 /* LocationManagerUtil.m in Sources */,
+				21F1018F19075D4F00AEDACC /* DJevaluationViewController.m in Sources */,
+				37B4326F18EFC4E80070888C /* MJRefreshBaseView.m in Sources */,
+				21B2B1491952B1B000DCC24C /* DJOrderDetail.m in Sources */,
+				37A292B21918E42C00651D1A /* DJDriverCell.m in Sources */,
+				3705857E18F7B98000467076 /* DJConst.m in Sources */,
+				370DF3C018FE897900C72739 /* DJWeixinDelegate.m in Sources */,
+				2194636C1900FD5400AE03A0 /* DJAdCell.m in Sources */,
+				21B68B6F195825F600F2D75B /* DJOrderUncompletedTableProvider.m in Sources */,
+				3746A3F318E8FEEA00FC1511 /* main.m in Sources */,
+				21F1018C19075C7100AEDACC /* DJPrevilageCell.m in Sources */,
+				3705856218F7B95A00467076 /* DJCurrentOrderListViewController.m in Sources */,
+				21E686231938248900FE3771 /* DJSegementContainer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3746A40018E8FEEA00FC1511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3746A40A18E8FEEA00FC1511 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3746A3E218E8FEEA00FC1511 /* 58DaijiaClient */;
+			targetProxy = 3746A40918E8FEEA00FC1511 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21031787190F88430046C7E7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21031788190F88430046C7E7 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		3746A3EF18E8FEEA00FC1511 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3746A3F018E8FEEA00FC1511 /* en */,
+				211747E518F7E9910044D201 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3746A41318E8FEEA00FC1511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: zheng zhou (85E55TR9ZK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: zheng zhou (85E55TR9ZK)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "58DaijiaClient/Info.plist\n";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = com.58.driveAgent;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		3746A41418E8FEEA00FC1511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Chengshi Wanglin Information Technology Co., Ltd. (EJA352Y795)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Beijing Chengshi Wanglin Information Technology Co., Ltd. (EJA352Y795)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "58DaijiaClient/Info.plist\n";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = com.58.driveAgent;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+		3746A41618E8FEEA00FC1511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FE5296F6FFB4DC18932D0BB /* Pods.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: zheng zhou (85E55TR9ZK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: zheng zhou (85E55TR9ZK)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/58HuangyeLib-dtyabgocfgnkbuhkirklbbjdotgl/Build/Products/Debug-iphonesimulator",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/58DaijiaClient-bhcdyzhradlxlrcbxeulukysysob/Build/Products/Debug-iphonesimulator",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/58HuangyeLib-dvxbqaqiphtficeldedjblnotgan/Build/Products/Debug-iphonesimulator",
+					"$(SRCROOT)/libs/qq",
+					"$(SRCROOT)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "58DaijiaClient/58DaijiaClient-Prefix.pch";
+				INFOPLIST_FILE = 58DaijiaClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/libs/weibo",
+					"$(SRCROOT)/libs/weixin",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+					"$(SRCROOT)/libs/baidu/Release-iphonesimulator",
+					"$(PROJECT_DIR)/libs/umeng",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = driveAgent;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders/** ${SRCROOT}/**";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3746A41718E8FEEA00FC1511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FE5296F6FFB4DC18932D0BB /* Pods.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: zheng zhou (85E55TR9ZK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Beijing Chengshi Wanglin Information Technology Co., Ltd. (EJA352Y795)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/58HuangyeLib-dtyabgocfgnkbuhkirklbbjdotgl/Build/Products/Debug-iphonesimulator",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/58DaijiaClient-bhcdyzhradlxlrcbxeulukysysob/Build/Products/Debug-iphonesimulator",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/58HuangyeLib-dvxbqaqiphtficeldedjblnotgan/Build/Products/Debug-iphonesimulator",
+					"$(SRCROOT)/libs/qq",
+					"$(SRCROOT)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "58DaijiaClient/58DaijiaClient-Prefix.pch";
+				INFOPLIST_FILE = 58DaijiaClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/libs/weibo",
+					"$(SRCROOT)/libs/weixin",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+					"$(SRCROOT)/libs/baidu/Release-iphonesimulator",
+					"$(PROJECT_DIR)/libs/umeng",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = driveAgent;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders/** ${SRCROOT}/**";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3746A41918E8FEEA00FC1511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/58DaijiaClient.app/58DaijiaClient";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "58DaijiaClient/58DaijiaClient-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "58DaijiaClientTests/58DaijiaClientTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3746A41A18E8FEEA00FC1511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/58DaijiaClient.app/58DaijiaClient";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "58DaijiaClient/58DaijiaClient-Prefix.pch";
+				INFOPLIST_FILE = "58DaijiaClientTests/58DaijiaClientTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3746A3DE18E8FEEA00FC1511 /* Build configuration list for PBXProject "58DaijiaClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3746A41318E8FEEA00FC1511 /* Debug */,
+				3746A41418E8FEEA00FC1511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3746A41518E8FEEA00FC1511 /* Build configuration list for PBXNativeTarget "58DaijiaClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3746A41618E8FEEA00FC1511 /* Debug */,
+				3746A41718E8FEEA00FC1511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3746A41818E8FEEA00FC1511 /* Build configuration list for PBXNativeTarget "58DaijiaClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3746A41918E8FEEA00FC1511 /* Debug */,
+				3746A41A18E8FEEA00FC1511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3746A3DB18E8FEEA00FC1511 /* Project object */;
+}

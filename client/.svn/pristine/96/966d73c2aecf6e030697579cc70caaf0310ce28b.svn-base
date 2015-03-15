@@ -1,0 +1,96 @@
+
+/* Class = "IBUIButton"; normalTitle = "获取验证码"; ObjectID = "3oc-Q6-T8m"; */
+"3oc-Q6-T8m.normalTitle" = "获取验证码";
+
+/* Class = "IBUILabel"; text = "价格表"; ObjectID = "5PG-24-aPz"; */
+"5PG-24-aPz.text" = "价格表";
+
+/* Class = "IBUILabel"; text = "快捷，安全，省钱，38"; ObjectID = "6Mg-6s-MbU"; */
+"6Mg-6s-MbU.text" = "快捷，安全，省钱，38";
+
+/* Class = "IBUITabBarItem"; title = "附近司机"; ObjectID = "6bA-TC-ePh"; */
+"6bA-TC-ePh.title" = "附近司机";
+
+/* Class = "IBUINavigationItem"; title = "我的订单"; ObjectID = "7gG-CQ-kEc"; */
+"7gG-CQ-kEc.title" = "我的订单";
+
+/* Class = "IBUIButton"; normalTitle = "绑定"; ObjectID = "8Qs-A2-YlX"; */
+"8Qs-A2-YlX.normalTitle" = "绑定";
+
+/* Class = "IBUITextField"; placeholder = "输入验证码"; ObjectID = "9v9-lU-m5p"; */
+"9v9-lU-m5p.placeholder" = "输入验证码";
+
+/* Class = "IBUITextField"; placeholder = "请输入优惠码"; ObjectID = "CP1-U3-Oq9"; */
+"CP1-U3-Oq9.placeholder" = "请输入优惠码";
+
+/* Class = "IBUITextField"; text = "请输入优惠码"; ObjectID = "CP1-U3-Oq9"; */
+"CP1-U3-Oq9.text" = "请输入优惠码";
+
+/* Class = "IBUILabel"; text = "委托代驾协议"; ObjectID = "Cfb-ry-RH3"; */
+"Cfb-ry-RH3.text" = "委托代驾协议";
+
+/* Class = "IBUILabel"; text = "我的优惠券"; ObjectID = "FX2-aB-azs"; */
+"FX2-aB-azs.text" = "我的优惠券";
+
+/* Class = "IBUILabel"; text = "元"; ObjectID = "GLo-Km-Vd9"; */
+"GLo-Km-Vd9.text" = "元";
+
+/* Class = "IBUINavigationItem"; title = "Root View Controller"; ObjectID = "H42-NV-gqf"; */
+"H42-NV-gqf.title" = "Root View Controller";
+
+/* Class = "IBUILabel"; text = "优惠券"; ObjectID = "Hhx-cW-hX3"; */
+"Hhx-cW-hX3.text" = "优惠券";
+
+/* Class = "IBUIButton"; normalTitle = "绑定手机并登录"; ObjectID = "HnE-WS-MMa"; */
+"HnE-WS-MMa.normalTitle" = "绑定手机并登录";
+
+/* Class = "IBUILabel"; text = "检查新版本"; ObjectID = "IyC-jd-fOI"; */
+"IyC-jd-fOI.text" = "检查新版本";
+
+/* Class = "IBUILabel"; text = "客服热线"; ObjectID = "M4Y-lz-P6g"; */
+"M4Y-lz-P6g.text" = "客服热线";
+
+/* Class = "IBUILabel"; text = "400-105-1033"; ObjectID = "Ph5-UG-Pdm"; */
+"Ph5-UG-Pdm.text" = "400-105-1033";
+
+/* Class = "IBUILabel"; text = "未消费"; ObjectID = "QEY-Xk-Xeo"; */
+"QEY-Xk-Xeo.text" = "未消费";
+
+/* Class = "IBUILabel"; text = "有效期至2014.06.31"; ObjectID = "Qco-Ve-I1e"; */
+"Qco-Ve-I1e.text" = "有效期至2014.06.31";
+
+/* Class = "IBUILabel"; text = "输入手机号码登录"; ObjectID = "UMm-l8-1Ak"; */
+"UMm-l8-1Ak.text" = "输入手机号码登录";
+
+/* Class = "IBUILabel"; text = "我的账号："; ObjectID = "WSa-85-p89"; */
+"WSa-85-p89.text" = "我的账号：";
+
+/* Class = "IBUILabel"; text = "10"; ObjectID = "Z8h-IT-Kct"; */
+"Z8h-IT-Kct.text" = "10";
+
+/* Class = "IBUILabel"; text = "元起~"; ObjectID = "aHv-OD-6r6"; */
+"aHv-OD-6r6.text" = "元起~";
+
+/* Class = "IBUITextField"; placeholder = "输入手机号码"; ObjectID = "bQH-qQ-NCJ"; */
+"bQH-qQ-NCJ.placeholder" = "输入手机号码";
+
+/* Class = "IBUITabBarItem"; title = "查看更多"; ObjectID = "h6v-pt-EgV"; */
+"h6v-pt-EgV.title" = "查看更多";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "if2-Ny-Odc"; */
+"if2-Ny-Odc.text" = "Label";
+
+/* Class = "IBUITableViewSection"; headerTitle = " "; ObjectID = "iyB-bq-7NZ"; */
+"iyB-bq-7NZ.headerTitle" = " ";
+
+/* Class = "IBUITabBarItem"; title = "订单"; ObjectID = "rII-AL-9a8"; */
+"rII-AL-9a8.title" = "订单";
+
+/* Class = "IBUITabBarItem"; title = "邀请好友"; ObjectID = "wWo-bC-aNn"; */
+"wWo-bC-aNn.title" = "邀请好友";
+
+/* Class = "IBUILabel"; text = "58代驾通"; ObjectID = "xSQ-Yw-Mu3"; */
+"xSQ-Yw-Mu3.text" = "58代驾通";
+
+/* Class = "IBUINavigationItem"; title = "查看更多"; ObjectID = "zFu-DW-phq"; */
+"zFu-DW-phq.title" = "查看更多";
